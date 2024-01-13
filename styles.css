@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clock {
+    color: rgb(12, 228, 30);
+     font-size: 60px;
+     letter-spacing: 7px;
+}
+
+.clock-box {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25%;
+    height: 300px;
+    width: 500px;
+    border: solid rgb(12, 228, 30);
+    border-radius: 5px;
+}
